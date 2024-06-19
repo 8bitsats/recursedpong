@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="image-gallery">
+        <a href="https://res.cloudinary.com/labradojo/image/upload/v1718412521/Recursed/IMG_2848_aqwzi4.png" target="_blank">
+            <img src="https://res.cloudinary.com/labradojo/image/upload/v1718412521/Recursed/IMG_2848_aqwzi4.png" alt="Image 1">
+        </a>
+        <a href="https://res.cloudinary.com/labradojo/image/upload/v1718412521/Recursed/IMG_2847_szo81c.png" target="_blank">
+            <img src="https://res.cloudinary.com/labradojo/image/upload/v1718412521/Recursed/IMG_2847_szo81c.png" alt="Image 2">
+        </a>
+        <a href="https://res.cloudinary.com/labradojo/image/upload/v1718412503/Recursed/IMG_2844_rpp4kg.png" target="_blank">
+            <img src="https://res.cloudinary.com/labradojo/image/upload/v1718412503/Recursed/IMG_2844_rpp4kg.png" alt="Image 3">
+        </a>
+        <a href="https://res.cloudinary.com/labradojo/image/upload/v1718412503/Recursed/IMG_2843_kkhjau.png" target="_blank">
+            <img src="https://res.cloudinary.com/labradojo/image/upload/v1718412503/Recursed/IMG_2843_kkhjau.png" alt="Image 4">
+        </a>
+    </div>
+    <div id="game-container">
+        <canvas id="pongCanvas" width="800" height="400"></canvas>
+        <div id="score"></div>
+    </div>
+    <div id="popup" class="hidden">
+        <div class="popup-content">
+            <h2>Congratulations!</h2>
+            <p>You just won a free mint!</p>
+            <button id="mintButton">Click here to mint a recursed</button>
+        </div>
+    </div>
+    <canvas id="matrixRainCanvas"></canvas>
+    <script src="matrix.js"></script>
+    <script src="pong.js"></script>
+</body>
+</html>
