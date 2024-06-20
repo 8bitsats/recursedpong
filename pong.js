@@ -144,6 +144,6 @@ function displayPopup() {
 
     const mintButton = document.getElementById("mintButton");
     mintButton.onclick = () => {
-        window.location.href = "https://truffle.wtf/project/itstherecursed";
+        window.location.href = "https://truffle.wtf/project/recursedpong";
     };
 }
